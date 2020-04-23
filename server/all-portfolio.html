@@ -24,14 +24,15 @@
 	<link href="/css/fontawesome/css/all.css" rel="stylesheet">
 	<link href="/css/google-fonts.css" rel="stylesheet" />
 	<link href="/css/lightgallery.css" rel="stylesheet">
-	<link rel="stylesheet" href="/css/main.css">
+	<link href="/css/csshake.min.css" rel="stylesheet" />
 	<link href="/css/jquery.bxslider.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/css/main.css">
 </head>
 <body class="has-navbar-fixed-top" id="init">
 	<header role="banner">
 		<nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
 			<div class="navbar-brand">
-				<a class="navbar-item" href="home.html#init">
+				<a class="navbar-item" href="index.html#init">
 					<img src="images/common/logo.png" width="80">
 				</a>
 				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -42,11 +43,11 @@
 			</div>
 			<div id="navbarBasicExample" class="navbar-menu">
 				<div class="navbar-start">
-					<a class="navbar-item" href="home.html#init">Home</a>
-					<a class="navbar-item" href="home.html#about-me">About Me</a>
-					<a class="navbar-item" href="home.html#portfolio">Portfolio</a>
-					<a class="navbar-item">My Blog</a>
-					<a class="navbar-item">Contact Me</a>
+					<a class="navbar-item" href="index.html#init">Home</a>
+					<a class="navbar-item" href="index.html#about-me">About Me</a>
+					<a class="navbar-item" href="index.html#portfolio">Portfolio</a>
+					<a class="navbar-item" href="index.html#blog">My Blog</a>
+					<a class="navbar-item" href="index.html#contact">Contact Me</a>
 				</div>
 			</div>
 		</nav>
@@ -84,7 +85,7 @@
 						<div class="column painting filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio1.jpg">
-									<img src="/images/portfolio/folio1.jpg" />
+									<img src="/images/portfolio/folio1.jpg" class="shake-slow" />
 								</span>
 								<h4>Painting</h4>
 							</div>
@@ -92,23 +93,23 @@
 						<div class="column photography filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio2.jpg">
-									<img src="/images/portfolio/folio2.jpg" />
+									<img src="/images/portfolio/folio2.jpg" class="shake-slow" />
 								</span>
-								<h4>Photography</h4>								
+								<h4>Photography</h4>
 							</div>
 						</div>
 						<div class="column painting filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio3.jpg">
-									<img src="/images/portfolio/folio3.jpg" />
+									<img src="/images/portfolio/folio3.jpg" class="shake-slow" />
 								</span>
-								<h4>Videos</h4>								
+								<h4>Videos</h4>
 							</div>
 						</div>
 						<div class="column photography filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio4.jpg">
-									<img src="/images/portfolio/folio4.jpg" />
+									<img src="/images/portfolio/folio4.jpg" class="shake-slow" />
 								</span>
 								<h4>Photoshop</h4>								
 							</div>
@@ -124,7 +125,7 @@
 						<div class="column photography filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio6.jpg">
-									<img src="/images/portfolio/folio6.jpg" />
+									<img src="/images/portfolio/folio6.jpg" class="shake-slow" />
 								</span>
 								<h4>Drawing</h4>				
 							</div>
@@ -132,7 +133,7 @@
 						<div class="column art filter is-3">
 							<div class="folio people">
 								<span class="portfolio-image" data-src="/images/portfolio/folio7.jpg">
-									<img src="/images/portfolio/folio7.jpg" />
+									<img src="/images/portfolio/folio7.jpg" class="shake-slow" />
 								</span>
 								<h4>Art</h4>
 							</div>
@@ -140,7 +141,7 @@
 						<div class="column robotics filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio8.jpg">
-									<img src="/images/portfolio/folio8.jpg" />
+									<img src="/images/portfolio/folio8.jpg" class="shake-slow" />
 								</span>
 								<h4>Robotics</h4>		
 							</div>
@@ -148,7 +149,7 @@
 						<div class="column painting filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio1.jpg">
-									<img src="/images/portfolio/folio1.jpg" />
+									<img src="/images/portfolio/folio1.jpg" class="shake-slow" />
 								</span>
 								<h4>Painting</h4>
 							</div>
@@ -156,7 +157,7 @@
 						<div class="column photography filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio2.jpg">
-									<img src="/images/portfolio/folio2.jpg" />
+									<img src="/images/portfolio/folio2.jpg" class="shake-slow" />
 								</span>
 								<h4>Photography</h4>								
 							</div>
@@ -164,7 +165,7 @@
 						<div class="column painting filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio3.jpg">
-									<img src="/images/portfolio/folio3.jpg" />
+									<img src="/images/portfolio/folio3.jpg" class="shake-slow" />
 								</span>
 								<h4>Videos</h4>								
 							</div>
@@ -180,7 +181,7 @@
 						<div class="column robotics filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio5.jpg">
-									<img src="/images/portfolio/folio5.jpg" />
+									<img src="/images/portfolio/folio5.jpg" class="shake-slow" />
 								</span>
 								<h4>Wild</h4>				
 							</div>
@@ -188,7 +189,7 @@
 						<div class="column photography filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio6.jpg">
-									<img src="/images/portfolio/folio6.jpg" />
+									<img src="/images/portfolio/folio6.jpg" class="shake-slow" />
 								</span>
 								<h4>Drawing</h4>								
 							</div>
@@ -196,7 +197,7 @@
 						<div class="column art filter is-3">
 							<div class="folio people">
 								<span class="portfolio-image" data-src="/images/portfolio/folio7.jpg">
-									<img src="/images/portfolio/folio7.jpg" />
+									<img src="/images/portfolio/folio7.jpg" class="shake-slow" />
 								</span>
 								<h4>Art</h4>				
 							</div>
@@ -204,7 +205,7 @@
 						<div class="column robotics filter is-3">
 							<div class="folio">
 								<span class="portfolio-image" data-src="/images/portfolio/folio8.jpg">
-									<img src="/images/portfolio/folio8.jpg" />
+									<img src="/images/portfolio/folio8.jpg" class="shake-slow" />
 								</span>
 								<h4>Robotics</h4>						
 							</div>

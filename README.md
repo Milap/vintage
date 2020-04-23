@@ -5,9 +5,10 @@ Vintage is One Page HTML Responsive Template created using [http://bulma.io/](ht
 ## Installation
 
 Use Git or checkout with SVN using the below web URL.
+
 [https://github.com/Milap/vintage-one-page-html-template.git](https://github.com/Milap/vintage-one-page-html-template.git)
 
-Run below command once clone is done.
+Run below command once clone is done, it will install all required `node_modules`.
 
 ```
 npm install
@@ -15,21 +16,20 @@ npm install
 
 ## Usage
 
-Run below commands once all node modules gets installed.
+Run below commands once all `node_modules` gets installed.
 
 ```python
 npm run start
 ```
-Above command will start CSS and JS builds with watchers.
+Above command will start `CSS` and `JS` builds with watchers.
 
 ```
-cd server
-node server.js
+npm run server
 ```
 
 This will start local server. You can access HTML Template using below URL in browser.
 
-[http://localhost:8125/home.html](http://localhost:8125/home.html)
+[http://localhost:9000/index.html](http://localhost:9000/index.html)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
