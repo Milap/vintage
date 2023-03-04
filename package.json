@@ -71,6 +71,6 @@
   "version": "0.0.3",
   "dependencies": {
     "bulma-carousel": "^4.0.4",
-    "http-server": "^0.12.1"
+    "http-server": "^0.12.3"
   }
 }
